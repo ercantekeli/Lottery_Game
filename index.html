@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <input type="number" name="" id="" min="1" max="8">
-    <button>Lucky Numbers</button>
+    <h1>Lottery Game</h1>
+    <h3 class="header">(Please Select Number Between 0-8)</h3>
+    <div class="select">
+        <input type="number" name="count" id="count" min="1" max="8">
+        <button id="lucky__button">Lucky Numbers</button>
+    </div>
+    <div id="numbers">
+
+    </div>
+    <footer>
+        <h2>Note:</h2>
+        <h3>First 6 digit is lottery numbers(1-90)</h3>
+        <h3>7th digit is Joker Number. Different from first 6 digit.</h3>
+        <h3>8th digit is Superstar Number.(1-90)</h3>
+    </footer>
+
+    <script src="./App.js">
+
+    </script>
 </body>
+
 </html>
